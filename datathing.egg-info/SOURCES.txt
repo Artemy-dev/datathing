@@ -1,0 +1,9 @@
+README.md
+pyproject.toml
+datathing/__init__.py
+datathing/core.py
+datathing.egg-info/PKG-INFO
+datathing.egg-info/SOURCES.txt
+datathing.egg-info/dependency_links.txt
+datathing.egg-info/requires.txt
+datathing.egg-info/top_level.txt

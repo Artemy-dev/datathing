@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "datathing"
+version = "0.1.1"
+description = "Модуль для автоматического анализа и визуализации табличных данных"
+authors = [
+  { name="Артем Грачев", email="artemy.develop@gmail.com" }
+]
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = [
+  "numpy",
+  "pandas",
+  "scipy",
+  "matplotlib",
+  "seaborn",
+  "statsmodels"
+]
+
+[project.urls]
+"GitHub" = "https://github.com/Artemy-dev/datathing"
