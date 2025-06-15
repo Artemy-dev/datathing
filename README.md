@@ -35,3 +35,4 @@ get_summary_report(df, "revenue")
 
 ---
 
+![PyPI version](https://img.shields.io/pypi/v/datathing)
