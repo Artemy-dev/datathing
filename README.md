@@ -1,34 +1,18 @@
-# datathing
-### https://pypi.org/project/datathing/<br>
+# 🚀 [datathing](https://pypi.org/project/datathing/) — Automated Data Analysis & Visualization  
+Python module for automatic analysis, visualization, and statistical tests on tabular data (pandas.DataFrame).  
+(Питон-модуль для автоматического анализа, визуализации и статистических тестов над табличными данными.)
 
 ---
 
-📊 Python-модуль для автоматического анализа, визуализации и статистических тестов над табличными данными (pandas.DataFrame).
+## 💻 Supported Platforms
+
+- ✅ Windows  
+- ✅ macOS  
+- ✅ Linux  
 
 ---
 
-## Установка
-
-```bash
-pip install datathing
-```
-
----
-
-## Возможности
-
-* Поиск аномалий (3σ, IQR)
-* Визуализация (гистограммы, boxplot, heatmap, pairplot)
-* Корреляции
-* Проверка нормальности
-* Стат. тесты (T-test, U-test, χ²)
-* Декомпозиция временных рядов
-
----
-
-## 📚 Доступные функции
-
-Модуль `datathing` предоставляет функции для быстрого и наглядного анализа данных в DataFrame. Ниже — список доступных функций:
+## 📦 Features / Возможности
 
 | Функция | Описание |
 |--------|----------|
@@ -52,7 +36,22 @@ pip install datathing
 
 ---
 
-## 📌 Пример использования
+## ❓ Why this project? / Зачем этот проект?
+
+This module helps automate exploratory data analysis, reducing manual effort and improving data insight clarity.  
+Модуль помогает автоматизировать разведочный анализ данных, снижая трудозатраты и повышая качество понимания данных.
+
+---
+
+## 🚀 Installation / Установка
+
+```bash
+pip install datathing
+````
+
+---
+
+## ⚙️ Usage / Пример использования
 
 ```python
 import pandas as pd
@@ -66,11 +65,8 @@ df = pd.DataFrame({
 
 dfg.get_summary_report(df, "возраст")
 ```
----
 
-## 📌 Пример вывода
-
-```angular2html
+```
 === Автоматический анализ данных для 'возраст' ===
 
 Среднее значение: 42.67
@@ -86,6 +82,40 @@ dfg.get_summary_report(df, "возраст")
 
 Вывод: распределение имеет правостороннюю асимметрию (более высокие значения).
 ```
+---
+
+## 📁 Project Structure / Структура проекта
+
+```
+├── datathing
+├── datathing.egg-info
+├── README.md
+├── pyproject.toml
+└── requirements.txt
+```
+
+---
+
+## 👤 Author / Автор
+
+**Artem Grachev**<br>
+Python/Golang Developer | ML & DevOps Enthusiast<br>
+Telegram: [@Artemy\_Develop](https://t.me/Artemy_Develop)<br>
+GitHub: [Artemy-dev](https://github.com/Artemy-dev)
+
+---
+
+## 🌍 SEO Keywords
+
+* data analysis python
+* exploratory data analysis
+* pandas data visualization
+* statistical tests python
+* anomaly detection python
+* time series decomposition
+* automatic EDA tool
+* data science python library
+* data profiling pandas
 
 ---
 
